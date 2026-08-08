@@ -1,173 +1,115 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-
-<Layout title="Second Brain OS — Capture, Organize, Distill, Express">
-  
-  <!-- Navigation Bar -->
-  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-    <div class="flex items-center space-x-2">
-      <span class="w-3 h-3 bg-journiv-blue rounded-pill inline-block"></span>
-      <span class="text-xl font-bold tracking-tight text-near-black">SecondBrain.os</span>
+<Layout title="David Amayoor — Notion System Architecture">
+  <!-- Navigation -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-border-subtle bg-white-surface/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-7 h-7 bg-pink-brand rounded-chip flex items-center justify-center text-white font-bold text-xs">DA</div>
+      <span class="text-hero-heading font-bold text-lg">David Amayoor</span>
     </div>
-    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-dark-text-alt">
-      <a href="#features" class="hover:text-journiv-blue transition-colors">Features</a>
-      <a href="#framework" class="hover:text-journiv-blue transition-colors">PARA Method</a>
-      <a href="#pricing" class="hover:text-journiv-blue transition-colors">Get System</a>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-muted-text">
+      <a href="/" class="text-pink-brand font-semibold">Home</a>
+      <a href="/services" class="hover:text-hero-heading transition-colors">Services</a>
+      <a href="/templates" class="hover:text-hero-heading transition-colors">Templates</a>
+      <a href="/case-studies" class="hover:text-hero-heading transition-colors">Case Studies</a>
+      <a href="/about" class="hover:text-hero-heading transition-colors">About</a>
     </nav>
-    <div>
-      <a href="#pricing" class="px-5 py-2.5 bg-journiv-blue text-white text-sm font-semibold rounded-pill shadow-[0px_0px_20px_-5px_rgba(64,93,230,0.25)] hover:opacity-90 transition-opacity">
-        Access OS
-      </a>
-    </div>
+    <a href="/contact" class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button shadow-sm hover:opacity-95">Book Call</a>
   </header>
 
-  <main class="max-w-6xl mx-auto px-6 space-y-24 py-12">
+  <main class="max-w-5xl mx-auto px-6 py-20 space-y-28">
     
     <!-- Hero Section -->
-    <section class="text-center space-y-6 max-w-4xl mx-auto pt-12">
-      <div class="inline-flex items-center space-x-2 px-3 py-1 bg-white-surface border border-border-subtle/50 rounded-pill text-xs font-bold text-journiv-blue shadow-sm">
-        <span>⚡ Built for Deep Thinkers & Solopreneurs</span>
+    <section class="text-center space-y-8">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 bg-chip-background border border-border-subtle rounded-pill text-xs font-semibold text-pink-brand uppercase tracking-wider">
+        <span>⚡ Precision-Engineered Digital Workspaces</span>
       </div>
-      
-      <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-near-black leading-[1.1]">
-        Transform scattered notes into <span class="text-journiv-blue">actionable knowledge.</span>
+      <h1 class="text-5xl md:text-7xl lg:text-[80px] font-bold text-hero-heading tracking-tight leading-[1.1]">
+        Transforming operational chaos into <span class="text-pink-brand">pure clarity.</span>
       </h1>
-      
-      <p class="text-muted-gray text-lg md:text-xl font-normal max-w-2xl mx-auto leading-relaxed">
-        The ultimate Second Brain operating system designed to capture ideas, organize your digital life, and execute your most important work with clarity.
+      <p class="text-muted-text text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        With 7 years of deep Notion architecture experience, I apply biochemical precision to build high-performance operating systems for solopreneurs and media teams.
       </p>
-
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-        <a href="#pricing" class="w-full sm:w-auto px-8 py-4 bg-journiv-blue text-white font-semibold rounded-pill shadow-[0px_0px_24px_-6px_rgba(64,93,230,0.28)] hover:opacity-90 transition-opacity text-center">
-          Get Your Second Brain
-        </a>
-        <a href="#framework" class="w-full sm:w-auto px-8 py-4 bg-white-surface text-near-black border border-border-subtle font-semibold rounded-pill hover:bg-page-background transition-colors text-center">
-          Explore Framework
-        </a>
-      </div>
-
-      <!-- Quick Command Bar Preview -->
-      <div class="pt-8 flex justify-center">
-        <div class="inline-flex items-center space-x-3 px-4 py-2 bg-white-surface border border-border-subtle/50 rounded-md text-sm text-muted-gray shadow-sm">
-          <span>Quick search notes...</span>
-          <code class="font-mono bg-page-background px-2 py-0.5 rounded-sm text-xs text-near-black border border-border-subtle/40">⌘K</code>
-        </div>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+        <a href="/services" class="px-8 py-4 bg-pink-brand text-white font-semibold rounded-button shadow-md hover:opacity-95 text-center">Explore High-Ticket Services</a>
+        <a href="/templates" class="px-8 py-4 bg-white-surface border border-border-subtle text-hero-heading font-semibold rounded-button hover:bg-chip-background text-center">Browse Namogolyst Templates</a>
       </div>
     </section>
 
-    <!-- PARA Framework Section -->
-    <section id="framework" class="space-y-12">
+    <!-- Framework Pillars Section -->
+    <section class="space-y-12">
       <div class="text-center space-y-3">
-        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-near-black">
-          Powered by the PARA Method
-        </h2>
-        <p class="text-muted-gray text-base md:text-lg max-w-xl mx-auto">
-          Every piece of information finds its exact home across four primary pillars.
-        </p>
+        <span class="text-xs font-mono font-bold text-pink-brand uppercase tracking-widest">Architectural Foundation</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-hero-heading">Built on Proven Frameworks</h2>
+        <p class="text-muted-text max-w-lg mx-auto">August Bradley's PPV and Tiago Forte's PARA methodologies integrated seamlessly for maximum leverage.</p>
       </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        
-        <!-- Card 1: Projects -->
-        <div class="p-8 bg-white-surface rounded-card border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-4 hover:border-journiv-blue/50 transition-all">
-          <div class="w-10 h-10 rounded-md bg-page-background flex items-center justify-center text-journiv-blue font-bold text-lg">01</div>
-          <h3 class="text-xl font-bold text-near-black">Projects</h3>
-          <p class="text-dark-text-alt text-sm leading-relaxed">
-            Short-term efforts with a specific goal and a deadline attached to your current workflow.
-          </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm">
+          <div class="w-10 h-10 bg-chip-background rounded-chip flex items-center justify-center text-pink-brand font-bold">01</div>
+          <h3 class="text-xl font-bold text-hero-heading">Pillars & Pipelines</h3>
+          <p class="text-muted-text text-sm leading-relaxed">Align your daily actions with long-term life objectives using structured content pipelines.</p>
         </div>
-
-        <!-- Card 2: Areas -->
-        <div class="p-8 bg-white-surface rounded-card border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-4 hover:border-journiv-blue/50 transition-all">
-          <div class="w-10 h-10 rounded-md bg-page-background flex items-center justify-center text-journiv-blue font-bold text-lg">02</div>
-          <h3 class="text-xl font-bold text-near-black">Areas</h3>
-          <p class="text-dark-text-alt text-sm leading-relaxed">
-            Long-term responsibilities that require continuous attention like health, finance, or business.
-          </p>
+        <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm">
+          <div class="w-10 h-10 bg-chip-background rounded-chip flex items-center justify-center text-pink-brand font-bold">02</div>
+          <h3 class="text-xl font-bold text-hero-heading">PARA Organization</h3>
+          <p class="text-muted-text text-sm leading-relaxed">Projects, Areas, Resources, and Archives cleanly partitioned to eliminate cognitive friction.</p>
         </div>
-
-        <!-- Card 3: Resources -->
-        <div class="p-8 bg-white-surface rounded-card border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-4 hover:border-journiv-blue/50 transition-all">
-          <div class="w-10 h-10 rounded-md bg-page-background flex items-center justify-center text-journiv-blue font-bold text-lg">03</div>
-          <h3 class="text-xl font-bold text-near-black">Resources</h3>
-          <p class="text-dark-text-alt text-sm leading-relaxed">
-            Topics of ongoing interest, reference materials, swipe files, and valuable templates.
-          </p>
+        <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm">
+          <div class="w-10 h-10 bg-chip-background rounded-chip flex items-center justify-center text-pink-brand font-bold">03</div>
+          <h3 class="text-xl font-bold text-hero-heading">Cyber-Minimalism</h3>
+          <p class="text-muted-text text-sm leading-relaxed">Dark-mode ready, distraction-free typography and clean layouts tailored for high focus.</p>
         </div>
-
-        <!-- Card 4: Archives -->
-        <div class="p-8 bg-white-surface rounded-card border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-4 hover:border-journiv-blue/50 transition-all">
-          <div class="w-10 h-10 rounded-md bg-page-background flex items-center justify-center text-journiv-blue font-bold text-lg">04</div>
-          <h3 class="text-xl font-bold text-near-black">Archives</h3>
-          <p class="text-dark-text-alt text-sm leading-relaxed">
-            Inactive items from the first three categories kept safely for future retrieval if needed.
-          </p>
-        </div>
-
       </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
-      <div class="space-y-6">
-        <span class="text-xs font-bold uppercase tracking-wider text-journiv-blue">System Architecture</span>
-        <h2 class="text-3xl md:text-4xl font-bold text-near-black leading-tight">
-          Designed for maximum focus, zero cognitive friction.
-        </h2>
-        <p class="text-muted-gray leading-relaxed">
-          Stop wasting hours organizing folders. Our system uses automated linking, minimalist typography, and lightning-fast capture flows so you can focus entirely on creating output.
-        </p>
-        <ul class="space-y-3 text-dark-text-alt font-medium text-sm">
-          <li class="flex items-center space-x-3">
-            <span class="w-2 h-2 bg-journiv-blue rounded-pill"></span>
-            <span>Frictionless Web Clipper & Quick Capture</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-2 h-2 bg-journiv-blue rounded-pill"></span>
-            <span>Progressive Summarization workflow built-in</span>
-          </li>
-          <li class="flex items-center space-x-3">
-            <span class="w-2 h-2 bg-journiv-blue rounded-pill"></span>
-            <span>100% Private, self-hosted or local markdown ready</span>
-          </li>
-        </ul>
-      </div>
-
-      <div class="p-8 bg-white-surface rounded-card border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-6">
-        <div class="flex items-center justify-between border-b border-border-subtle/40 pb-4">
-          <span class="text-xs font-bold text-muted-gray uppercase">Active Workspace</span>
-          <span class="px-2.5 py-1 bg-journiv-blue/10 text-journiv-blue text-xs font-bold rounded-pill">Sync Live</span>
-        </div>
+    <!-- Core Solutions / Services Preview -->
+    <section class="space-y-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div class="space-y-3">
-          <div class="p-3 bg-page-background rounded-md text-sm font-semibold text-near-black">🧠 Daily Knowledge Review</div>
-          <div class="p-3 bg-page-background rounded-md text-sm font-semibold text-near-black">🚀 Q3 Product Launch Roadmap</div>
-          <div class="p-3 bg-page-background rounded-md text-sm font-semibold text-near-black">💡 Content Ideas & Swipe Files</div>
+          <span class="text-xs font-mono font-bold text-pink-brand uppercase tracking-widest">Client Solutions</span>
+          <h2 class="text-3xl md:text-4xl font-bold text-hero-heading">Engineered for Scale</h2>
+        </div>
+        <a href="/services" class="text-sm font-semibold text-pink-brand hover:underline">View all services →</a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm">
+          <span class="px-3 py-1 bg-chip-background text-xs font-mono font-bold text-pink-brand rounded-tag uppercase">Flagship</span>
+          <h3 class="text-2xl font-bold text-hero-heading">Full Life Notion OS</h3>
+          <p class="text-muted-text text-sm leading-relaxed">Complete integration of PPV and advanced task tracking tailored specifically for high-achieving solopreneurs.</p>
+          <div class="text-xl font-bold text-hero-heading pt-2">$2,500 <span class="text-xs text-muted-text font-normal">/ project</span></div>
+        </div>
+        <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm">
+          <span class="px-3 py-1 bg-chip-background text-xs font-mono font-bold text-pink-brand rounded-tag uppercase">Media Focus</span>
+          <h3 class="text-2xl font-bold text-hero-heading">Video Studio OS</h3>
+          <p class="text-muted-text text-sm leading-relaxed">Specialized content pipeline architecture built for short-form video production agencies and creators.</p>
+          <div class="text-xl font-bold text-hero-heading pt-2">$1,800 <span class="text-xs text-muted-text font-normal">/ project</span></div>
         </div>
       </div>
     </section>
 
-    <!-- Pricing / CTA Section -->
-    <section id="pricing" class="py-12 text-center">
-      <div class="max-w-2xl mx-auto p-10 bg-white-surface rounded-section border border-border-subtle/50 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.06)] space-y-6">
-        <h2 class="text-3xl font-bold text-near-black">Ready to upgrade your mind?</h2>
-        <p class="text-muted-gray text-sm md:text-base">
-          Get lifetime access to the complete Second Brain operating system files, documentation, and layout templates.
-        </p>
-        <div>
-          <button class="px-8 py-4 bg-journiv-blue text-white font-semibold rounded-pill shadow-[0px_0px_24px_-6px_rgba(64,93,230,0.28)] hover:opacity-90 transition-opacity">
-            Get Instant Access — $49
-          </button>
-        </div>
-        <p class="text-xs text-muted-gray">Instant download • Works with Markdown & Notion setups</p>
+    <!-- Testimonial / Social Proof -->
+    <section class="p-10 bg-white-surface border border-border-subtle rounded-card-lg space-y-6 shadow-sm text-center max-w-3xl mx-auto">
+      <span class="text-xs font-mono font-bold text-pink-brand uppercase tracking-widest">Client Success</span>
+      <p class="text-hero-heading text-lg md:text-xl italic leading-relaxed">
+        "Implementing David's Video Studio OS saved our agency over 15 hours weekly. The structure completely eliminated communication friction across our editing team."
+      </p>
+      <div>
+        <h4 class="font-bold text-hero-heading">Short-Form Agency Founder</h4>
+        <span class="text-xs text-muted-text">Verified Client Build</span>
       </div>
+    </section>
+
+    <!-- Bottom CTA Banner -->
+    <section class="p-12 bg-pink-tint-surface border border-pink-brand/30 rounded-card-lg text-center space-y-6">
+      <h2 class="text-3xl font-bold text-hero-heading">Ready to upgrade your digital workspace?</h2>
+      <p class="text-muted-text max-w-xl mx-auto">Book a discovery call today to discuss your custom architecture requirements.</p>
+      <a href="/contact" class="inline-block px-8 py-4 bg-pink-brand text-white font-semibold rounded-button shadow-md hover:opacity-95">Book Your Discovery Call</a>
     </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="max-w-6xl mx-auto px-6 py-12 border-t border-border-subtle/40 text-center text-sm text-muted-gray">
-    <p>© 2026 SecondBrain.os. Built with Astro & Journiv Light Design System.</p>
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-border-subtle text-center text-sm text-faint-text">
+    <p>© 2026 David Amayoor. Notion System Architect. All rights reserved.</p>
   </footer>
-
 </Layout>

@@ -2,33 +2,35 @@
 
 @theme {
   /* --- Colors --- */
-  --color-border-subtle: #cccccc;
-  --color-error-red: #ef4444;
-  --color-page-background: #f5f5f5;
   --color-white-surface: #ffffff;
-  --color-dark-text-alt: #374151;
-  --color-journiv-blue: #405de6;
-  --color-muted-gray: #737373;
-  --color-near-black: #0a0a0a;
+  --color-chip-background: #f4f4f5;
+  --color-field-background: #fafafa;
+  --color-pink-tint-surface: #fff7fd;
+  --color-body-text: #1f2937;
+  --color-faint-text: #9ca3af;
+  --color-hero-heading: #11181c;
+  --color-muted-text: #6b7280;
+  --color-border-subtle: #e9e9ec;
+  --color-pink-brand: #ff00c3;
 
   /* --- Typography --- */
-  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
 
   /* --- Border Radius --- */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 20px;
-  --radius-2xl: 24px;
-  --radius-card: 20px;
-  --radius-section: 24px;
-  --radius-pill: 9999px;
+  --radius-pill: 28px;
+  --radius-card-lg: 24px;
+  --radius-card: 16px;
+  --radius-card-sm: 12px;
+  --radius-button: 10px;
+  --radius-chip: 8px;
+  --radius-tag: 4px;
+  --radius-micro: 2px;
 }
 
 /* Base Body Styles */
 body {
-  background-color: var(--color-page-background);
-  color: var(--color-near-black);
+  background-color: var(--color-pink-tint-surface);
+  color: var(--color-body-text);
   font-family: var(--font-sans);
 }

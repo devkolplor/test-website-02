@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Contact — Book Discovery Call">
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-border-subtle bg-white-surface/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-7 h-7 bg-pink-brand rounded-chip flex items-center justify-center text-white font-bold text-xs">DA</div>
+      <span class="text-hero-heading font-bold text-lg">David Amayoor</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-muted-text">
+      <a href="/" class="hover:text-hero-heading transition-colors">Home</a>
+      <a href="/services" class="hover:text-hero-heading transition-colors">Services</a>
+      <a href="/templates" class="hover:text-hero-heading transition-colors">Templates</a>
+      <a href="/case-studies" class="hover:text-hero-heading transition-colors">Case Studies</a>
+      <a href="/about" class="hover:text-hero-heading transition-colors">About</a>
+    </nav>
+    <a href="/contact" class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button shadow-sm hover:opacity-95">Book Call</a>
+  </header>
+
+  <main class="max-w-2xl mx-auto px-6 py-20 space-y-12">
+    <div class="text-center space-y-4">
+      <h1 class="text-4xl font-bold text-hero-heading">Let’s Engineer Your System</h1>
+      <p class="text-muted-text">Fill out the project brief below to schedule your discovery session.</p>
+    </div>
+
+    <form class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-6 shadow-sm">
+      <div class="space-y-2">
+        <label class="text-sm font-medium text-hero-heading">Your Name</label>
+        <input type="text" class="w-full px-4 py-2.5 bg-field-background border border-border-subtle rounded-button text-sm text-body-text outline-none focus:border-pink-brand" placeholder="John Doe" required />
+      </div>
+
+      <div class="space-y-2">
+        <label class="text-sm font-medium text-hero-heading">Email Address</label>
+        <input type="email" class="w-full px-4 py-2.5 bg-field-background border border-border-subtle rounded-button text-sm text-body-text outline-none focus:border-pink-brand" placeholder="john@example.com" required />
+      </div>
+
+      <div class="space-y-2">
+        <label class="text-sm font-medium text-hero-heading">Select Service Tier</label>
+        <select class="w-full px-4 py-2.5 bg-field-background border border-border-subtle rounded-button text-sm text-body-text outline-none focus:border-pink-brand">
+          <option>Full Life Notion OS ($2,500+)</option>
+          <option>Video Studio OS ($1,800+)</option>
+          <option>Custom Architectural Consultation</option>
+        </select>
+      </div>
+
+      <div class="space-y-2">
+        <label class="text-sm font-medium text-hero-heading">Workflow Bottlenecks & Goals</label>
+        <textarea rows="4" class="w-full px-4 py-2.5 bg-field-background border border-border-subtle rounded-button text-sm text-body-text outline-none focus:border-pink-brand" placeholder="Describe your current workspace challenges..." required></textarea>
+      </div>
+
+      <button type="submit" class="w-full py-3.5 bg-pink-brand text-white font-semibold rounded-button shadow-sm hover:opacity-95 transition-opacity">
+        Submit Project Inquiry
+      </button>
+    </form>
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-border-subtle text-center text-sm text-faint-text mt-20">
+    <p>© 2026 David Amayoor. All rights reserved.</p>
+  </footer>
+</Layout>

@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Templates — Namogolyst Products">
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-border-subtle bg-white-surface/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-7 h-7 bg-pink-brand rounded-chip flex items-center justify-center text-white font-bold text-xs">N</div>
+      <span class="text-hero-heading font-bold text-lg">Namogolyst</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-muted-text">
+      <a href="/" class="hover:text-hero-heading transition-colors">Home</a>
+      <a href="/services" class="hover:text-hero-heading transition-colors">Services</a>
+      <a href="/templates" class="text-pink-brand font-semibold">Templates</a>
+      <a href="/case-studies" class="hover:text-hero-heading transition-colors">Case Studies</a>
+      <a href="/about" class="hover:text-hero-heading transition-colors">About</a>
+    </nav>
+    <a href="/contact" class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button shadow-sm hover:opacity-95">Book Call</a>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center space-y-4 max-w-2xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold text-hero-heading">Namogolyst Templates</h1>
+      <p class="text-muted-text text-lg">Plug-and-play digital workspace systems designed for immediate productivity and aesthetic minimalism.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm flex flex-col justify-between">
+        <div class="space-y-3">
+          <div class="h-40 bg-chip-background rounded-chip flex items-center justify-center text-xs font-mono text-faint-text border border-border-subtle">Second Brain Preview</div>
+          <h3 class="text-xl font-bold text-hero-heading">Second Brain Dashboard</h3>
+          <p class="text-muted-text text-sm">Minimalist capture inbox and PARA routing system for digital notes.</p>
+        </div>
+        <div class="pt-4 border-t border-border-subtle flex items-center justify-between">
+          <span class="text-xl font-bold text-pink-brand">$49</span>
+          <button class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button hover:opacity-95">Get Template</button>
+        </div>
+      </div>
+
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm flex flex-col justify-between">
+        <div class="space-y-3">
+          <div class="h-40 bg-chip-background rounded-chip flex items-center justify-center text-xs font-mono text-faint-text border border-border-subtle">Content OS Preview</div>
+          <h3 class="text-xl font-bold text-hero-heading">Video Studio OS Lite</h3>
+          <p class="text-muted-text text-sm">Track short-form video ideas from script inception to final release.</p>
+        </div>
+        <div class="pt-4 border-t border-border-subtle flex items-center justify-between">
+          <span class="text-xl font-bold text-pink-brand">$39</span>
+          <button class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button hover:opacity-95">Get Template</button>
+        </div>
+      </div>
+
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-4 shadow-sm flex flex-col justify-between">
+        <div class="space-y-3">
+          <div class="h-40 bg-chip-background rounded-chip flex items-center justify-center text-xs font-mono text-faint-text border border-border-subtle">Solopreneur Hub Preview</div>
+          <h3 class="text-xl font-bold text-hero-heading">Solopreneur Hub</h3>
+          <p class="text-muted-text text-sm">All-in-one financial tracker, project manager, and client portal.</p>
+        </div>
+        <div class="pt-4 border-t border-border-subtle flex items-center justify-between">
+          <span class="text-xl font-bold text-pink-brand">$69</span>
+          <button class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button hover:opacity-95">Get Template</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-border-subtle text-center text-sm text-faint-text mt-20">
+    <p>© 2026 Namogolyst Products. All rights reserved.</p>
+  </footer>
+</Layout>

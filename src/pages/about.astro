@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="About — System Architect">
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-border-subtle bg-white-surface/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-7 h-7 bg-pink-brand rounded-chip flex items-center justify-center text-white font-bold text-xs">DA</div>
+      <span class="text-hero-heading font-bold text-lg">David Amayoor</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-muted-text">
+      <a href="/" class="hover:text-hero-heading transition-colors">Home</a>
+      <a href="/services" class="hover:text-hero-heading transition-colors">Services</a>
+      <a href="/templates" class="hover:text-hero-heading transition-colors">Templates</a>
+      <a href="/case-studies" class="hover:text-hero-heading transition-colors">Case Studies</a>
+      <a href="/about" class="text-pink-brand font-semibold">About</a>
+    </nav>
+    <a href="/contact" class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button shadow-sm hover:opacity-95">Book Call</a>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-20 space-y-12">
+    <div class="space-y-6">
+      <span class="px-3 py-1 bg-chip-background text-xs font-mono font-bold text-pink-brand rounded-tag uppercase">Background & Philosophy</span>
+      <h1 class="text-4xl md:text-5xl font-bold text-hero-heading leading-tight">
+        System Architect with the mind of a biochemist.
+      </h1>
+      <p class="text-muted-text text-lg leading-relaxed">
+        With 7 years of specialized expertise in building digital workspaces, I approach Notion system architecture through a scientific lens—optimizing variables, eliminating friction, and designing predictable workflows.
+      </p>
+    </div>
+
+    <div class="p-8 bg-white-surface border border-border-subtle rounded-card space-y-6 shadow-sm">
+      <h3 class="text-xl font-bold text-hero-heading">Core Architectural Principles</h3>
+      <ul class="space-y-4 text-muted-text text-sm leading-relaxed">
+        <li class="flex items-start space-x-3">
+          <span class="text-pink-brand font-bold">•</span>
+          <span><strong>Radical Simplicity:</strong> Removing unnecessary properties and views to ensure lightning-fast navigation.</span>
+        </li>
+        <li class="flex items-start space-x-3">
+          <span class="text-pink-brand font-bold">•</span>
+          <span><strong>Data Integrity:</strong> Strict relational database structures that prevent data duplication and chaos.</span>
+        </li>
+        <li class="flex items-start space-x-3">
+          <span class="text-pink-brand font-bold">•</span>
+          <span><strong>Cyber-Minimalist Aesthetics:</strong> Dark and light neutral palettes accented by high-impact visual cues.</span>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-border-subtle text-center text-sm text-faint-text mt-20">
+    <p>© 2026 David Amayoor. All rights reserved.</p>
+  </footer>
+</Layout>
