@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="FAQ & Resources — David Amayoor">
+  <!-- Navigation -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-border-subtle bg-white-surface/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-7 h-7 bg-pink-brand rounded-chip flex items-center justify-center text-white font-bold text-xs">DA</div>
+      <span class="text-hero-heading font-bold text-lg">David Amayoor</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-muted-text">
+      <a href="/" class="hover:text-hero-heading transition-colors">Home</a>
+      <a href="/services" class="hover:text-hero-heading transition-colors">Services</a>
+      <a href="/templates" class="hover:text-hero-heading transition-colors">Templates</a>
+      <a href="/case-studies" class="hover:text-hero-heading transition-colors">Case Studies</a>
+      <a href="/about" class="hover:text-hero-heading transition-colors">About</a>
+      <a href="/faq" class="text-pink-brand font-semibold">FAQ</a>
+    </nav>
+    <a href="/contact" class="px-4 py-2 bg-pink-brand text-white text-sm font-semibold rounded-button shadow-sm hover:opacity-95">Book Call</a>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-20 space-y-16">
+    <div class="text-center space-y-4">
+      <span class="px-3 py-1 bg-chip-background text-xs font-mono font-bold text-pink-brand rounded-tag uppercase">Support Hub</span>
+      <h1 class="text-4xl md:text-5xl font-bold text-hero-heading">Frequently Asked Questions</h1>
+      <p class="text-muted-text text-lg">Everything you need to know about our Notion system architecture builds and templates.</p>
+    </div>
+
+    <!-- FAQ Accordion / List -->
+    <div class="space-y-6">
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-2 shadow-sm">
+        <h3 class="text-lg font-bold text-hero-heading">What is the typical turnaround time for a custom build?</h3>
+        <p class="text-muted-text text-sm leading-relaxed">
+          High-ticket custom builds (like the Full Life Notion OS or Video Studio OS) typically take between 2 to 3 weeks, including the discovery audit, database relational mapping, and team training.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-2 shadow-sm">
+        <h3 class="text-lg font-bold text-hero-heading">Do I need a paid Notion subscription to use your systems?</h3>
+        <p class="text-muted-text text-sm leading-relaxed">
+          Notion's free plan is robust enough for most templates, but we recommend Notion Plus for teams or advanced automation features and larger file uploads.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white-surface border border-border-subtle rounded-card space-y-2 shadow-sm">
+        <h3 class="text-lg font-bold text-hero-heading">How do template updates work after purchase?</h3>
+        <p class="text-muted-text text-sm leading-relaxed">
+          All Namogolyst templates include lifetime updates. Whenever we optimize database relations or introduce new productivity modules, you'll receive the updated duplicate link via email.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-border-subtle text-center text-sm text-faint-text mt-20">
+    <p>© 2026 David Amayoor. All rights reserved.</p>
+  </footer>
+</Layout>
